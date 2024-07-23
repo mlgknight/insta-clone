@@ -1,0 +1,120 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+
+
+.header-container {
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    width: 100%;
+    margin: 0;
+}
+
+.avatar{
+    width: 50px;
+    border-radius: 100px;
+    height: 50px;
+    margin: 30px
+}
+
+
+.userIcons {
+    width: 50px;
+    border-radius: 100px;
+    height: 50px;
+    margin: 0px 5px 20px 0px;
+}
+
+.logo {
+    width: 180px;
+    margin-top: 1px;    
+
+}
+
+.insta-cont{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.post-image{
+    width: 700;
+    height: 750px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    .post-image{
+        width: 100%;
+        height: 460px;
+    }
+      
+}
+
+.float-right{
+    float: left;
+}
+
+.top-post{
+    margin: 25px 5px 10px 15px;
+
+}
+.lower-text{
+    font-size: 15px;
+    margin: 0px 0px 5px 2px;
+    font-weight: 400;
+
+}
+h3{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.interact{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 5px 10px;
+}
+
+.interact img{
+    width: 30px;
+}
+
+.likes{
+    margin: 8px 10px;
+}
+
+.username-comment{
+    margin: 5px 10px;
+    font-weight: 500;
+}
+
+.username-text{
+    font-weight: bold;
+}
+
+
+
+.icon:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+img{
+    cursor: pointer;
+}
+
+
